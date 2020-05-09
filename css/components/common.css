@@ -1,0 +1,303 @@
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	max-width: 1442px;
+	margin: 0 auto;
+}
+
+.container,
+.container2,
+.container3 {
+	max-width: 1242px;
+	margin: 0 auto;
+}
+
+.header-box {
+	background-color: #f5f8fb;
+	border-bottom: 1px solid #e0e9f0;
+	margin-bottom: 15px;
+}
+
+.block {
+	display: flex;
+	padding-top: 38px;
+	padding-bottom: 38px;
+	justify-content: space-between;
+}
+
+.tel {
+	color: #282b2f;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.tel:hover {
+	color: #009688;
+}
+
+.icon-phone2 {
+	color: #465a64;
+	font-size: 20px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0px;
+	font-size: 18px;
+	font-weight: 500;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #282b2f;
+}
+
+.nav a:hover {
+	color: #009688;
+}
+
+.header-box2 {
+	border-bottom: 1px solid #e0e9f0;
+	margin-bottom: 15px;
+}
+
+.breadcrumbs {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0px;
+}
+
+.breadcrumbs li {
+	padding-right: 15px;
+	position: relative;
+	margin-right: 10px;
+}
+
+.breadcrumbs li::after {
+	content: ">";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.breadcrumbs li:last-child::after {
+	content: "";
+}
+
+.breadcrumbs a {
+	text-decoration: none;
+	color: #78909c;
+	font-size: 14px;
+}
+
+.breadcrumbs li.active a,
+.breadcrumbs a:hover {
+	color: #282b2f;
+}
+
+.col1 {
+	margin-right: 30px;
+	width: calc(70% - 30px);
+}
+
+.col2 {
+	margin-left: 30px;
+	width: calc(30% - 30px);
+}
+
+.container2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.article h4{
+	font-style: italic;
+	color: #546e7a;
+	font-weight: 300;
+}
+
+.assortment {
+	list-style: "\2014";
+	padding-left: 12px;
+}
+
+.assortment li {
+	padding-left: 16px;
+	font-style: italic;
+}
+
+ol li {
+	line-height: 2.65;
+}
+
+p, h1, h2, h3, img, hr, ul, ol {
+	margin-bottom: 30px;
+}
+
+h4, h4+p {
+	margin-bottom: 15px;
+}
+
+.article p:nth-of-type(3) {
+	margin-bottom: 100px;
+}
+
+.article p:nth-of-type(5) {
+	margin-bottom: 100px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+}
+
+.form-control:focus {
+	border-color: #009688;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #bdc6ca;
+	font-weight: 300;
+}
+
+.form-control::-moz-placeholder {
+	opacity: 1;
+	color: red;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #bdc6ca;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 15px;
+	border-radius: 4px;
+	text-decoration: none;
+	border: 2px solid #009688;
+	width: 100%;
+	background-color: #ffffff;
+	color: #009688;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.btn:hover {
+	background-color: #009688;
+	color: #ffffff;
+}
+
+.form-control {
+	width: 100%;
+	border: 2px solid #e0e9f0;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.search-form {
+	position: relative;
+}
+
+.search-form .form-control {
+	padding-right: 80px;
+}
+
+.search-form .btn {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	bottom: 2px;
+	width: 60px;
+	border: 0;
+	cursor: pointer;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	border: 0px;
+	padding: 0px;
+	height: auto;
+}
+
+.send {
+	color: white;
+	max-width: 342px;
+	background-color: #009688;
+	margin-top: 30px;
+}
+
+.send:hover {
+	background-color: #ffffff;
+	color: #009688;
+}
+
+time {
+	color: #bdc6ca;
+}
+
+.card a {
+	color:#009688;
+	font-weight: 500;
+}
+
+.card a:hover {
+	text-decoration: none;
+}
+
+.footer {
+	border-top: 1px solid #e0e9f0;
+}
+
+.container3 {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0px;
+	padding-top: 46px;
+	padding-bottom: 46px;
+	align-items: center;
+}
+
+.container3 p {
+	margin-bottom: 0px;
+	color: #282b2f;
+}
+
+.social-networks {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.social-networks a {
+	text-decoration: none;
+	color: #546e7a;
+	margin-right: 40px;
+}
+
+.social-networks a:hover {
+	color: #009688;
+}
+
+.container2 {
+	margin-bottom: 100px;
+}
+
+hr {
+	border: none; 
+	background-color: #e0e9f0; 
+	height: 1px; 
+}
