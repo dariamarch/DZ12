@@ -173,7 +173,7 @@ h4, h4+p {
 
 .form-control::-moz-placeholder {
 	opacity: 1;
-	color: red;
+	color: #bdc6ca;
 }
 
 .form-control:-ms-input-placeholder {
